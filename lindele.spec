@@ -14,7 +14,7 @@ BuildRequires:	gstreamer-plugins-devel >= 0.8.0
 BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	libvorbis-devel
 BuildRequires:	pkgconfig
-BuildRequires:	taglib-devel = 1.1
+BuildRequires:	taglib-devel >= 1.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
