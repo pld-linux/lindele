@@ -9,12 +9,12 @@ Source0:	http://download.gna.org/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	6d5387fd607fe0516bcc3ddd84dc4a77
 Patch0:		%{name}-desktop.patch
 URL:		http://projects.subpop.net/lindele/
-BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	gstreamer-GConf-devel >= 0.8.0
 BuildRequires:	gstreamer-plugins-devel >= 0.8.0
-BuildRequires:	taglib-devel = 1.1
+BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	libvorbis-devel
 BuildRequires:	pkgconfig
+BuildRequires:	taglib-devel = 1.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
