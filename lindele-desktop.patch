@@ -1,0 +1,20 @@
+diff -urN lindele-0.1.1.orig/data/lindele.desktop lindele-0.1.1/data/lindele.desktop
+--- lindele-0.1.1.orig/data/lindele.desktop	2004-09-02 16:34:23.873531176 +0200
++++ lindele-0.1.1/data/lindele.desktop	2004-09-02 16:37:43.299213864 +0200
+@@ -1,12 +1,14 @@
+ [Desktop Entry]
+ Version=1.0
+ Encoding=UTF-8
+-Name=Lindelë Music Player
++Name=Lindelë
+ GenericName=Music Player
++GenericName[pl]=Odtwarzacz muzyki
+ Comment=Listen to your music
++Comment[pl]=Słuchaj swojej muzyki
+ Exec=lindele
+ Icon=lindele.png
+ StartupNotify=false
+ Terminal=false
+ Type=Application
+-Categories=GNOME;Application;AudioVideo;X-Ximian-Extra;X-Red-Hat-Extra;
++Categories=GTK;GNOME;Audio;Player;
