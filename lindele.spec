@@ -5,7 +5,7 @@ Version:	0.1.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://download.gna.org/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://download.gna.org/lindele/%{name}-%{version}.tar.gz
 # Source0-md5:	6d5387fd607fe0516bcc3ddd84dc4a77
 Patch0:		%{name}-desktop.patch
 URL:		http://projects.subpop.net/lindele/
@@ -33,8 +33,8 @@ Features:
 
 %description -l pl
 Lindele to prosty odtwarzacz muzyczny dla GNOME, zaprojektowany aby
-byæ poprostu odtwarzaczem i niczym wiêcej. U¿ywa GStreamer'a do
-odtwarzania, wiêc wspiera wszystkie pliki, które GStreamer odtwarza.
+byæ poprostu odtwarzaczem i niczym wiêcej. U¿ywa GStreamera do
+odtwarzania, wiêc obs³uguje wszystkie pliki, które GStreamer odtwarza.
 U¿ywa TagLib do edycji znaczników.
 Mo¿liwo¶ci:
 - odczyt i zapis playlist PLS
@@ -67,6 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/%{name}/*
+%{_datadir}/%{name}
 %{_pixmapsdir}/*
 %{_desktopdir}/*
