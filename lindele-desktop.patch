@@ -17,4 +17,4 @@ diff -urN lindele-0.1.1.orig/data/lindele.desktop lindele-0.1.1/data/lindele.des
  Terminal=false
  Type=Application
 -Categories=GNOME;Application;AudioVideo;X-Ximian-Extra;X-Red-Hat-Extra;
-+Categories=GTK;GNOME;Audio;AudioVideo;Player;
++Categories=GTK;GNOME;Audio;Player;
