@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Lindele is a music player for GNOME, designed to be simply a player,
-and not much more. It uses GStreamer for blayback, so supports any
+and not much more. It uses GStreamer for playback, so supports any
 file GStreamer plays. And it uses TagLib for tag reading.
 Features:
 - read & write PLS playlists
