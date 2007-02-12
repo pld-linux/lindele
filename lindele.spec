@@ -1,5 +1,5 @@
 Summary:	A simple music player for GNOME
-Summary(pl):	Prosty odtwarzacz muzyczny dla GNOME
+Summary(pl.UTF-8):   Prosty odtwarzacz muzyczny dla GNOME
 Name:		lindele
 Version:	0.1.1
 Release:	1
@@ -31,14 +31,14 @@ Features:
 - playlist searching
 - preferences.
 
-%description -l pl
+%description -l pl.UTF-8
 Lindele to prosty odtwarzacz muzyczny dla GNOME, zaprojektowany aby
-byæ poprostu odtwarzaczem i niczym wiêcej. U¿ywa GStreamera do
-odtwarzania, wiêc obs³uguje wszystkie pliki, które GStreamer odtwarza.
-U¿ywa TagLib do edycji znaczników.
-Mo¿liwo¶ci:
+byÄ‡ poprostu odtwarzaczem i niczym wiÄ™cej. UÅ¼ywa GStreamera do
+odtwarzania, wiÄ™c obsÅ‚uguje wszystkie pliki, ktÃ³re GStreamer odtwarza.
+UÅ¼ywa TagLib do edycji znacznikÃ³w.
+MoÅ¼liwoÅ›ci:
 - odczyt i zapis playlist PLS
-- odczyt i czê¶æiowy zapis playlist M3U
+- odczyt i czÄ™Å›Ä‡iowy zapis playlist M3U
 - losowe odtwarzanie i powtarzanie
 - przechwytywanie klawiszy multimedialnych
 - ikona w obszarze powiadamiania
