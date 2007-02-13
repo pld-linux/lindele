@@ -1,5 +1,5 @@
 Summary:	A simple music player for GNOME
-Summary(pl.UTF-8):   Prosty odtwarzacz muzyczny dla GNOME
+Summary(pl.UTF-8):	Prosty odtwarzacz muzyczny dla GNOME
 Name:		lindele
 Version:	0.1.1
 Release:	1
